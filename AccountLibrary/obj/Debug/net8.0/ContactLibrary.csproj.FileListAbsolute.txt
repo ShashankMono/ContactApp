@@ -1,0 +1,11 @@
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\bin\Debug\net8.0\ContactLibrary.deps.json
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\bin\Debug\net8.0\ContactLibrary.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\bin\Debug\net8.0\ContactLibrary.pdb
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.AssemblyInfoInputs.cache
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.AssemblyInfo.cs
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.csproj.CoreCompileInputs.cache
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\refint\ContactLibrary.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.pdb
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ref\ContactLibrary.dll
