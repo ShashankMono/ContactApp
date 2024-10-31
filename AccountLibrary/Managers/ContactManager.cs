@@ -1,5 +1,6 @@
 ﻿using AccountLibrary.Exceptions;
 using AccountLibrary.Models;
+using ContactLibrary.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -58,6 +59,10 @@ namespace AccountLibrary.Managers
 
         public string DisplayAllContactsOfUser()
         {
+            if(contacts.Count == 0)
+            {
+                throw new NoContactsException("No Contacts!\n");
+            }
             string str = "";
             foreach (var contact in contacts)
             {

@@ -36,10 +36,12 @@ namespace AccountLibrary.Models
 
         public override string ToString()
         {
+            string active = isActive ? "Active" : "Not Active";
+            string admin = isAdmin ? "Admin" : "Staff";
             return $"\nId : {User_Id}\n" +
                     $"Name : {F_Name} {L_Name}\n" +
-                    $"IsActive : {isActive}\n" +
-                    $"IsAdmin : {isAdmin}\n"; ;
+                    $"IsActive : {active}\n" +
+                    $"IsAdmin : {admin}\n"; ;
         }
     }
 }

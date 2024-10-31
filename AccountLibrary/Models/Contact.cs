@@ -33,9 +33,10 @@ namespace AccountLibrary.Models
 
         public override string ToString()
         {
+            string active = IsActive ? "Active" : "Not Active";
             return $"Contact Id : {Contact_Id}\n" +
                 $"Name : {F_Name} {L_Name}\n" +
-                $"Is active : {IsActive}";
+                $"Is active : {active}";
         }
     }
 }

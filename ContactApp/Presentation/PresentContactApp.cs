@@ -176,8 +176,8 @@ namespace ContactApp.Presentation
         public static void LogoutUser()
         {
             user = null;
-            StartContactApp();
             Console.WriteLine("Successfully Logged Out!");
+            StartContactApp();
         }
     }
 }

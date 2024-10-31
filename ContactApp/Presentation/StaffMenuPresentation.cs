@@ -107,7 +107,14 @@ namespace ContactApp.Presentation
 
         public static void DisplayAllContact()
         {
-            Console.WriteLine(_contactManager.DisplayAllContactsOfUser());
+            try
+            {
+                Console.WriteLine(_contactManager.DisplayAllContactsOfUser());
+            }
+            catch (Exception ex) 
+            { 
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public static void FIndContact()
