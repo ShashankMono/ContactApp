@@ -16,12 +16,12 @@ namespace AccountLibrary.Models
         public List<Contact> Contacts { get; set; } = new List<Contact>();
 
 
-        public User(int id,string fname,string lname, bool admin)
+        public User(int User_Id, string F_Name, string L_Name, bool isAdmin)
         {
-            User_Id = id;
-            F_Name = fname;
-            L_Name = lname;
-            isAdmin = admin;
+            this.User_Id = User_Id;
+            this.F_Name = F_Name;
+            this.L_Name = L_Name;
+            this.isAdmin = isAdmin;
         }
 
         public void SetIsActive(bool active)
@@ -41,7 +41,8 @@ namespace AccountLibrary.Models
             return $"\nId : {User_Id}\n" +
                     $"Name : {F_Name} {L_Name}\n" +
                     $"IsActive : {active}\n" +
-                    $"IsAdmin : {admin}\n"; ;
+                    $"IsAdmin : {admin}\n" +
+                    $"================================\n"; 
         }
     }
 }

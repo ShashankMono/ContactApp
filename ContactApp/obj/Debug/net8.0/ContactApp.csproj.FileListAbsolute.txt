@@ -16,3 +16,9 @@ D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\obj\Debug\net8.
 D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\obj\Debug\net8.0\ContactApp.pdb
 D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\obj\Debug\net8.0\ContactApp.genruntimeconfig.cache
 D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\obj\Debug\net8.0\ref\ContactApp.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\ContactApp\bin\Debug\net8.0\ContactApp.dll.config

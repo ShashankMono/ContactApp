@@ -64,6 +64,7 @@ namespace ContactApp.Presentation
                     break;
                 case 10:
                     PresentContactApp.LogoutUser();
+                    UsersManager.UserSerializer();
                     Environment.Exit(0);
                     break;
                 default:

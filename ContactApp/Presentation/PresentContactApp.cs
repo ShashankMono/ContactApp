@@ -1,9 +1,11 @@
 ﻿using AccountLibrary.Managers;
 using AccountLibrary.Models;
+using ContactLibrary.DataSerializer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -18,6 +20,7 @@ namespace ContactApp.Presentation
             int id = TakeId("User");
             try
             {
+                UsersManager.Users = Serializer.Deserialization();
                 user = UsersManager.CheckUserExists(id);
                 if(user != null)
                     UsersManager.CheckUserIsActive(user);
@@ -78,6 +81,7 @@ namespace ContactApp.Presentation
                     break;
                 case 7:
                     user = null;
+                    UsersManager.UserSerializer();
                     Environment.Exit(0);
                     break;
                 default:

@@ -9,3 +9,4 @@ D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\n
 D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\refint\ContactLibrary.dll
 D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.pdb
 D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ref\ContactLibrary.dll
+D:\monocept_c# learning\Assignment\ContactAppSolution\AccountLibrary\obj\Debug\net8.0\ContactLibrary.csproj.AssemblyReference.cache

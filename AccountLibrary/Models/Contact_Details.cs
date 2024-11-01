@@ -11,16 +11,17 @@ namespace AccountLibrary.Models
         public int Contact_Id { get; set; }
         public string NumberOrEmail { get; set; }
 
-        public Contact_Details(int id,string NumberOrEmail)
+        public Contact_Details(int Contact_Id, string NumberOrEmail)
         {
-            Contact_Id = id;
+            this.Contact_Id = Contact_Id;
             this.NumberOrEmail = NumberOrEmail;
         }
 
         public override string ToString()
         {
             return $"Id : {Contact_Id}\n" +
-                    $"{NumberOrEmail}\n";
+                    $"{NumberOrEmail}\n" +
+                    $"===================================\n";
         }
     }
 }

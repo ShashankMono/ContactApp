@@ -1,5 +1,6 @@
 ﻿using AccountLibrary.Exceptions;
 using AccountLibrary.Models;
+using ContactLibrary.DataSerializer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace AccountLibrary.Managers
 {
     public class UsersManager
     {
-        public static List<User> Users = new List<User>() { new User(101,"Jack","Denial",true)};
+        public static List<User> Users;
 
         public static void AddNewUser(int Id, string FName, string LName, bool isAdmin)
         {
@@ -60,6 +61,11 @@ namespace AccountLibrary.Managers
                 str += user.ToString();
             }
             return str;
+        }
+
+        public static void UserSerializer()
+        {
+            Serializer.Serialization(Users);
         }
     }
 }
