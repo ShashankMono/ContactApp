@@ -63,7 +63,7 @@ namespace ContactApp.Presentation
                     PresentContactApp.LogoutUser();
                     break;
                 case 10:
-                    PresentContactApp.LogoutUser();
+                    PresentContactApp.user = null;
                     UsersManager.UserSerializer();
                     Environment.Exit(0);
                     break;

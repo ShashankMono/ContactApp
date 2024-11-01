@@ -13,7 +13,7 @@ namespace ContactApp.Presentation
 {
     public class PresentContactApp
     {
-        private static User user = null;
+        public static User user = null;
 
         public static void StartContactApp()
         {
