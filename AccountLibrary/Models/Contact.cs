@@ -36,7 +36,7 @@ namespace AccountLibrary.Models
             string active = IsActive ? "Active" : "Not Active";
             return $"Contact Id : {Contact_Id}\n" +
                 $"Name : {F_Name} {L_Name}\n" +
-                $"Is active : {active}";
+                $"Is active : {active}\n";
         }
     }
 }
